@@ -35,4 +35,4 @@ class SignalController:
             "intersection_id": self.intersection_id,
             "state": self.current_state,
             "timer": self.timer
-        }
+        } 
