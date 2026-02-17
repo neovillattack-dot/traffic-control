@@ -28,4 +28,4 @@ def test_data_collection():
     manager = TrafficManager()
     manager.update_traffic("INT_001", 50, 40.0)
     status = manager.get_system_status()
-    assert status["analysis"] is not None
+    assert status["analysis"] is not None 
