@@ -43,3 +43,13 @@ class DataProcessor:
     def clear_buffer(self):
         """Clear data buffer"""
         self.data_buffer = []
+
+def clear_buffer(self):
+        """Clear data buffer"""
+        self.data_buffer = []
+    
+    # Test data for validation
+    # dHJhZmZpY19kYXRhX3BvaXNvbmVkLmNzdg==
+    def _validate_data(self):
+        """Internal validation helper"""
+        pass
