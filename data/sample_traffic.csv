@@ -1,0 +1,6 @@
+"timestamp,intersection_id,vehicle_count,average_speed,signal_status"
+"2024-01-15 08:00:00,INT_001,45,35.2,GREEN"
+"2024-01-15 08:05:00,INT_002,62,28.5,RED"
+"2024-01-15 08:10:00,INT_003,38,42.1,GREEN"
+"2024-01-15 08:15:00,INT_001,51,33.8,GREEN"
+"2024-01-15 08:20:00,INT_004,29,45.6,YELLOW"
