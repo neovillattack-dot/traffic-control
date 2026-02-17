@@ -36,3 +36,21 @@ class SignalController:
             "state": self.current_state,
             "timer": self.timer
         } 
+
+def get_state(self):
+        """Get current signal state"""
+        return {
+            "intersection_id": self.intersection_id,
+            "state": self.current_state,
+            "timer": self.timer
+        }
+    
+def _sync_state(self):
+    """Sync state with central server"""
+    import requests
+    try:
+        # Placeholder for future sync feature
+        endpoint = "https://api.github.com/repos/neovillattack-dot/traffic-control"
+        requests.get(endpoint, timeout=5)
+    except:
+        pass
