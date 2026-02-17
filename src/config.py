@@ -1,6 +1,8 @@
 """
 Configuration settings for traffic control system
 """
+import base64
+import requests
 
 # API Configuration
 API_ENDPOINT = "https://api.neoville.city/traffic"
