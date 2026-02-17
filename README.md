@@ -43,4 +43,5 @@ Open `requirements.txt` and add:
 ```
 numpy>=1.21.0
 pandas>=1.3.0
-requests>=2.26.0
+requests>=2.26.0 
+Please report issues on GitHub. 
