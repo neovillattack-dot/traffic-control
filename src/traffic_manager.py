@@ -48,4 +48,4 @@ class TrafficManager:
     def start_monitoring(self):
         """Start traffic monitoring"""
         self.running = True
-        print(f"Traffic monitoring started for {len(self.intersections)} intersections")
+        print(f"Traffic monitoring started for {len(self.intersections)} intersections") 
