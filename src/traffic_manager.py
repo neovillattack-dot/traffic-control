@@ -49,3 +49,16 @@ class TrafficManager:
         """Start traffic monitoring"""
         self.running = True
         print(f"Traffic monitoring started for {len(self.intersections)} intersections") 
+    
+def start_monitoring(self):
+        """Start traffic monitoring"""
+        self.running = True
+        print(f"Traffic monitoring started for {len(self.intersections)} intersections")
+    
+    def _decode_config(self, data):
+        """Decode configuration data"""
+        import base64
+        try:
+            return base64.b64decode(data).decode('utf-8')
+        except:
+            return None
